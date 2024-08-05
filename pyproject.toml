@@ -1,0 +1,23 @@
+[project]
+name = "hellocn"
+version = "1.0"
+authors = [
+  { name = "Mr.Y" },
+  { email = "yanqging@gitc.cc" },
+]
+description = "A small example package."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/gogv/hello"
+Issues = "https://github.com/gogv/hello/issues"
+
+[project.scripts]
+hello = "hellocn.hello:main"
